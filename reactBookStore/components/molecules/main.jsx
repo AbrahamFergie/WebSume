@@ -8,4 +8,6 @@ export default class Main extends Component{
       <div className={styles.main}>{this.props.children}</div>
     )
   }
+
+  
 }
