@@ -1,0 +1,44 @@
+{
+  "name": "react-bookstore",
+  "version": "1.0.0",
+  "description": "bookstore with react framework",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack",
+    "start": "nodemon",
+    "serve": "serve ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/AbrahamFergie.git"
+  },
+  "author": "Abraham Ferguson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/AbrahamFergie/issues"
+  },
+  "homepage": "https://github.com/github.com/AbrahamFergie#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.28.0",
+    "serve": "^5.0.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.27.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "style-loader": "^0.13.2"
+  }
+}
