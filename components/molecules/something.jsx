@@ -1,11 +1,11 @@
 import React,{ Component } from 'react'
 
-export default class BookList extends Component{
+export default class Something extends Component{
   render(){
     return(
-      <h1>BookList</h1>
+      <h1>Something</h1>
     )
   }
 
-  
+
 }
