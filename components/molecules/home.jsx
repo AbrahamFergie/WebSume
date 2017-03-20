@@ -1,7 +1,9 @@
 import React,{ Component } from 'react'
 import styles from '../style.css'
+import '../styler.scss'
 
 export default class Home extends Component{
+
   render(){
     return(
       <div>
@@ -29,45 +31,45 @@ export default class Home extends Component{
         <div className={styles.menu}>Projects:</div>
         <div className={styles.projects}><br></br><br></br>
           <div className={styles.carousel}>
-            <div className={styles.cube}>
+            <div className="cube">
               <a
                 href="https://github.com/AbrahamFergie/myBlackJack">
-                <figure className={styles.front}><figcaption>Blackjack</figcaption></figure>
-                <figure className={styles.back}><figcaption>Blackjack</figcaption></figure>
-                <figure className={styles.right}><figcaption>Blackjack</figcaption></figure>
-                <figure className={styles.left}><figcaption>Blackjack</figcaption></figure>
-                <figure className={styles.top}><figcaption>Blackjack</figcaption></figure>
-                <figure className={styles.bottom}><figcaption>Blackjack</figcaption></figure>
+                <figure className="front"><figcaption>Blackjack</figcaption></figure>
+                <figure className="back"><figcaption>Blackjack</figcaption></figure>
+                <figure className="right"><figcaption>Blackjack</figcaption></figure>
+                <figure className="left"><figcaption>Blackjack</figcaption></figure>
+                <figure className="top"><figcaption>Blackjack</figcaption></figure>
+                <figure className="bottom"><figcaption>Blackjack</figcaption></figure>
               </a>
             </div>
-            <div className={styles.cube2}>
+            <div className="cube2">
               <a href="https://github.com/AbrahamFergie/myBooky">
-                <figure className={styles.front2}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.back2}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.right2}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.left2}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.top2}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.bottom2}><figcaption>Book Store</figcaption></figure>
+                <figure className="front2"><figcaption>Book Store</figcaption></figure>
+                <figure className="back2"><figcaption>Book Store</figcaption></figure>
+                <figure className="right2"><figcaption>Book Store</figcaption></figure>
+                <figure className="left2"><figcaption>Book Store</figcaption></figure>
+                <figure className="top2"><figcaption>Book Store</figcaption></figure>
+                <figure className="bottom2"><figcaption>Book Store</figcaption></figure>
               </a>
             </div>
-            <div className={styles.cube3}>
+            <div className="cube3">
               <a href="https://github.com/AbrahamFergie/myBlackJack">
-                <figure className={styles.front3}><figcaption>BlackJack</figcaption></figure>
-                <figure className={styles.back3}><figcaption>BlackJack</figcaption></figure>
-                <figure className={styles.right3}><figcaption>BlackJack</figcaption></figure>
-                <figure className={styles.left3}><figcaption>BlackJack</figcaption></figure>
-                <figure className={styles.top3}><figcaption>BlackJack</figcaption></figure>
-                <figure className={styles.bottom3}><figcaption>BlackJack</figcaption></figure>
+                <figure className="front3"><figcaption>BlackJack</figcaption></figure>
+                <figure className="back3"><figcaption>BlackJack</figcaption></figure>
+                <figure className="right3"><figcaption>BlackJack</figcaption></figure>
+                <figure className="left3"><figcaption>BlackJack</figcaption></figure>
+                <figure className="top3"><figcaption>BlackJack</figcaption></figure>
+                <figure className="bottom3"><figcaption>BlackJack</figcaption></figure>
               </a>
             </div>
-            <div className={styles.cube4}>
+            <div className="cube4">
               <a href="https://github.com/AbrahamFergie/myBooky">
-                <figure className={styles.front4}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.back4}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.right4}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.left4}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.top4}><figcaption>Book Store</figcaption></figure>
-                <figure className={styles.bottom4}><figcaption>Book Store</figcaption></figure>
+                <figure className="front4"><figcaption>Book Store</figcaption></figure>
+                <figure className="back4"><figcaption>Book Store</figcaption></figure>
+                <figure className="right4"><figcaption>Book Store</figcaption></figure>
+                <figure className="left4"><figcaption>Book Store</figcaption></figure>
+                <figure className="top4"><figcaption>Book Store</figcaption></figure>
+                <figure className="bottom4"><figcaption>Book Store</figcaption></figure>
               </a>
             </div>
           </div>

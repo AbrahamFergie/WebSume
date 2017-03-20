@@ -5,7 +5,6 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import Home from './molecules/home.jsx'
 import Main from './molecules/main.jsx'
 import Something from './molecules/something.jsx'
-// import './style.css'
 
 render(
   <Router history={browserHistory}>
