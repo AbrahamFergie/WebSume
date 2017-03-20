@@ -199,6 +199,7 @@ a {
   -ms-transform-style: paused;
   animation-play-state: paused;
 }
+
 @-webkit-keyframes spinner5 {
   from { -webkit-transform: rotateY(0deg);    }
   to       { -webkit-transform: rotateY(-1080deg); }
