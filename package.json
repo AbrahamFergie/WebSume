@@ -44,5 +44,9 @@
     "sass-loader": "^4.1.1",
     "scss-loader": "0.0.1",
     "style-loader": "^0.13.2"
-  }
+  },
+  "engines" : {
+    "node" : "~0.12.7",
+    "npm" : "~2.11.3"
+   }
 }
