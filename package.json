@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack",
-    "start": "nodemon",
+    "start": "node",
+    "start:dev": "nodemon",
     "serve": "serve ./public"
   },
   "repository": {
