@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
 import { Link } from 'react-router'
-import styles from '../../public/style.css'
+import styles from '../style.css'
 
 export default class Main extends Component{
   render(){
