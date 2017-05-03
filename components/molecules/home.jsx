@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
-import styles from '../style.css'
-import '../styler.scss'
+import styles from '../../public/style.css'
+import '../../public/styler.scss'
 
 export default class Home extends Component{
 
