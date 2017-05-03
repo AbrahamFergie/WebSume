@@ -1,10 +1,11 @@
 var webpack = require('webpack')
+var path = require('path')
 
 var config = {
-  devtool: 'eval-source-map',
-  entry: __dirname + "/components/index.jsx",
+  devtool: 'source-map',
+  entry: path.join(__dirname + "/components/index.jsx"),
   output: {
-    path: __dirname + "/public",
+    path: path.join(__dirname + "/dist"),
     filename: "bundle.js"
   },
   module: {
@@ -42,7 +43,13 @@ if(process.env.NODE_ENV === 'production'){
   config.devtool = false
   config.plugins = [
     new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({comments: false}),
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      },
+      comments: false
+    }),
     new webpack.DefinePlugin({
       'process.env': {NODE_ENV: JSON.stringify('production')}
     })

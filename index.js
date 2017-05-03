@@ -10,23 +10,27 @@ const config = require('./webpack.config')
 const app = express()
 const compiler = webpack(config)
 const server = http.createServer(app)
-const middleware = webpackMiddleware(compiler, {
-  publicPath: config.output.publicPath,
-  contentBase: 'commands',
-  stats: {
-    colors: true,
-    hash: false,
-    timings: true,
-    chunks: false,
-    chunkModules: false,
-    modules: false,
-  }
-})
+if(process.env.NODE_ENV === 'development') {
+  const middleware = webpackMiddleware(compiler, {
+    publicPath: config.output.publicPath,
+    contentBase: 'commands',
+    stats: {
+      colors: true,
+      hash: false,
+      timings: true,
+      chunks: false,
+      chunkModules: false,
+      modules: false,
+    }
+  })
+  app.use(middleware)
+  app.use(webpackHotMiddleware(compiler))
 
-app.use(middleware)
-app.use(webpackHotMiddleware(compiler))
+}
+
 app.use(express.static('component'))
 app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'dist')))
 app.get('*', function(request, response){
   response.sendFile(path.resolve(__dirname + '/public', 'index.html'))
 })
