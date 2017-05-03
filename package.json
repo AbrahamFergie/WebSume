@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack -p",
-    "start": "./node_modules/.bin/babel-node index.js",
+    "start": "webpack -p && ./node_modules/.bin/babel-node index.js",
     "start:dev": "nodemon --exec npm start",
     "serve": "serve ./public"
   },
