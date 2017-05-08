@@ -6,8 +6,10 @@
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack -p",
-    "start": "webpack -p && ./node_modules/.bin/babel-node index.js",
-    "start:dev": "nodemon --exec npm start",
+    "postinstall": "webpack -p",
+    "start": "./node_modules/.bin/babel-node index.js",
+    "start:dev:webpack": "./node_modules/.bin/babel-node index.js",
+    "start:dev": "NODE_ENV=development nodemon --exec npm run start:dev:webpack",
     "serve": "serve ./public"
   },
   "repository": {

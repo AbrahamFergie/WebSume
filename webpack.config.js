@@ -1,11 +1,12 @@
 var webpack = require('webpack')
 var path = require('path')
+require('es6-promise').polyfill()
 
 var config = {
   devtool: 'source-map',
   entry: path.join(__dirname + "/components/index.jsx"),
   output: {
-    path: path.join(__dirname + "/public"),
+    path: path.join(__dirname + "/dist"),
     filename: "bundle.js"
   },
   module: {
