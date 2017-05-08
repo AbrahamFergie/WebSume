@@ -1,6 +1,5 @@
 var webpack = require('webpack')
 var path = require('path')
-require('es6-promise').polyfill()
 
 var config = {
   devtool: 'source-map',
