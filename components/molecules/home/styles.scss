@@ -1,5 +1,5 @@
 html{
-  height: 100%;
+  height: auto;
   margin:0px;
   background: url('https://s-media-cache-ak0.pinimg.com/originals/3c/ca/69/3cca69831ff902f86d6fbb61758a160f.jpg') no-repeat center center;
   background-size: cover;
@@ -60,22 +60,21 @@ body{
 }
 .skills{
   position: relative;
-  // display:flex;
   top: 18px;
   height: 1100px;
   width: 966px;
   font-size: 2.1em;
-  opacity: 0.7;
   color: black;
   font-weight: 600;
   font-family: "Courier New", Courier, serif;
   text-align: center;
   border: 3px inset #7df442;
+  opacity: 0.9;
+  border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
 .skills2{
   position: relative;
-  // display:flex;
   top: 35px;
   left: -0.2%;
   height: 400px;
@@ -86,12 +85,13 @@ body{
   font-weight: 600;
   font-family: "Courier New", Courier, serif;
   text-align: center;
+  opacity: 0.9;
   border: 3px inset #7df442;
+  border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
 .skills3{
   position: relative;
-  // display:flex;
   top: 55px;
   right: -0.2%;
   height: 400px;
@@ -102,7 +102,9 @@ body{
   font-weight: 600;
   font-family: "Courier New", Courier, serif;
   text-align: center;
+  opacity: 0.9;
   border: 3px inset #7df442;
+  border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
 .education{
@@ -117,7 +119,9 @@ body{
   font-weight: 600;
   font-family: "Courier New", Courier, serif;
   text-align: center;
+  opacity: 0.9;
   border: 3px inset #7df442;
+  border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
 .related{
@@ -132,7 +136,9 @@ body{
   font-weight: 600;
   font-family: "Courier New", Courier, serif;
   text-align: center;
+  opacity: 0.9;
   border: 3px inset #7df442;
+  border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
 .projects{
@@ -186,61 +192,118 @@ a {
   background-position: center;
   width: 40em;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) and (max-width: 1399) {
   .menu{
-    left: 22%;
-    top: -16em;
+    left: 175px;
+    top: -9em;
     width: 14.9em;
   }
   .home{
     left: -4px;
-    width: 96.6%;
+    width: 1047px;
     font-size: 2em;
   }
   .footer{
-    top:-750px;
+    top:-250px;
     left: -4px;
     height: 2em;
     width: 99.5%;
   }
   .skills{
     top: 19px;
-    left: 24.9%;
+    left: -2px;
     height: 300px;
-    width: 918px;
-    font-size: 1em;
+    width: 1047px;
+    font-size: 1.1em;
   }
   .skills2{
-    top: -281px;
+    top: 40px;
     left: -.3%;
     height: 300px;
-    width: 400px;
+    width: 520px;
     font-size: 1em;
   }
   .skills3{
-    top: -580px;
-    right: -78.4%;
+    top: -259px;
+    right: -526px;
     height: 300px;
-    width: 400px;
+    width: 520px;
     font-size: 1em;
   }
   .education{
-    top: -475px;
-    left: -0.3px;
+    top: -243px;
+    left: -4.3px;
     height: 300px;
-    width: 400px;
+    width: 520px;
     font-size: 1em;
   }
   .related{
-    top: -765px;
-    right: -78.4%;
+    top: -545px;
+    right: -526px;
     height: 300px;
-    width: 400px;
+    width: 520px;
     font-size: 1em;
   }
   .projects{
-    top: -1450px;
-    left: 30em;
+    top: -750px;
+    left: 12em;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .menu{
+    left: 500px;
+    top: -24em;
+    width: 14.9em;
+  }
+  .home{
+    left: -4px;
+    width: 1672px;
+    font-size: 2em;
+  }
+  .footer{
+    top:-950px;
+    left: -4px;
+    height: 2em;
+    width: 99.5%;
+  }
+  .skills{
+    top: 19px;
+    left: 446px;
+    height: 329px;
+    width: 770px;
+    font-size: 1.1em;
+  }
+  .skills2{
+    top: -311px;
+    left: -0.1%;
+    height: 330px;
+    width: 442px;
+    font-size: 1em;
+  }
+  .skills3{
+    top: -641.1px;
+    right: -1225px;
+    height: 331px;
+    width: 442px;
+    font-size: 1em;
+  }
+  .education{
+    top: -622px;
+    left: -4.3px;
+    height: 330px;
+    width: 442px;
+    font-size: 1em;
+  }
+  .related{
+    top: -952px;
+    right: -1225px;
+    height: 330px;
+    width: 442px;
+    font-size: 1em;
+  }
+  .projects{
+    top: -1550px;
+    left: 28em;
   }
 }
 .carousel{
@@ -286,38 +349,6 @@ a {
 * {
 	box-sizing: border-box
 }
-// @media screen and (min-width: 768px) {
-//   #content-view {
-//     flex-direction: row;
-//   }
-//   #concept-view {
-//     order: 3;
-//     margin-left: 1em;
-//   }
-//   #post-row {
-//     flex-direction: row-reverse;
-//     justify-content: flex-end;
-//   }
-// }
-// @media screen and (min-width: 1224px) {
-//   .page {
-//     max-width: 1650px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding: 2em;
-//   }
-//
-//   body {
-//     font-size: 110%;
-//   }
-//   #lesson-select{
-//     margin-left: 2em;
-//   }
-//
-//   #concept-list {
-//     min-width: 200px;
-//   }
-// }
 
 .cube{
   transform: rotateY(4deg) rotateX(-16deg) rotateZ(1deg) translateZ(44px) translateX(-200px) translateY(300px);
@@ -340,7 +371,7 @@ a {
 .cube figure.front{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(43px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
   background-color: white;
 }
 .cube figure.top{
@@ -348,30 +379,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(128deg) rotateX(90deg) translateZ(43px) translateX(70px) translateY(-34px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
 }
 .cube figure.bottom{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(43px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
   background-color: white;
 }
 .cube figure.left{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(43px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube figure.right{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(43px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
   background-color: white;
 }
 .cube figure.back{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-43px);
+  transform:rotateY(-50deg) translateZ(-40px);
   background-color: white;
 }
 .cube2{
@@ -392,7 +423,7 @@ a {
 .cube2 figure.front2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(43px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
   background-color: white;
 }
 .cube2 figure.top2{
@@ -400,30 +431,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(128deg) rotateX(90deg) translateZ(43px) translateX(70px) translateY(-34px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
 }
 .cube2 figure.bottom2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(43px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
   background-color: white;
 }
 .cube2 figure.left2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(43px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube2 figure.right2{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(43px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
   background-color: white;
 }
 .cube2 figure.back2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-43px);
+  transform:rotateY(-50deg) translateZ(-40px);
   background-color: white;
 }
 .cube3{
@@ -444,7 +475,7 @@ a {
 .cube3 figure.front3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(43px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
   background-color: white;
 }
 .cube3 figure.top3{
@@ -452,30 +483,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(128deg) rotateX(90deg) translateZ(43px) translateX(70px) translateY(-37px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
 }
 .cube3 figure.bottom3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(43px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
   background-color: white;
 }
 .cube3 figure.left3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(43px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube3 figure.right3{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(43px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
   background-color: white;
 }
 .cube3 figure.back3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-43px);
+  transform:rotateY(-50deg) translateZ(-40px);
   background-color: white;
 }
 .cube4 {
@@ -495,7 +526,7 @@ a {
 .cube4 figure.front4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(43px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
   background-color: white;
 }
 .cube4 figure.top4{
@@ -503,117 +534,117 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(128deg) rotateX(90deg) translateZ(43px) translateX(70px) translateY(-34px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
 }
 .cube4 figure.bottom4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(43px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
   background-color: white;
 }
 .cube4 figure.left4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(43px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube4 figure.right4{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(43px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
   background-color: white;
 }
 .cube4 figure.back4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-43px);
+  transform:rotateY(-50deg) translateZ(-40px);
   background-color: white;
 }
 .cube:hover{
   &.cube figure.right{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(40deg) rotateX(-88deg) translateY(-115px) translateZ(45px) translateX(-10.5px);
+    transform: rotateY(40deg) rotateX(-88deg) translateY(-104px) translateZ(40px) translateX(-11px);
   }
   &.cube figure.left{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-90deg) translateY(-55px) translateZ(43px) translateX(-79.5px);
+    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-91deg) translateY(-53px) translateZ(40px) translateX(-70px);
   }
   &.cube figure.front{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-48px) translateZ(44px);
+    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-47px) translateZ(41px);
   }
   &.cube figure.top{
     transition-duration: 0.5s;
     transform-origin: right;
-    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(73px) translateY(-86px) translateZ(9px);
+    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(65.5px) translateY(-79px) translateZ(8.6px);
   }
 }
 .cube2:hover{
   &.cube2 figure.right2{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(40deg) rotateX(-88deg) translateY(-115px) translateZ(45px) translateX(-10.5px);
+    transform: rotateY(40deg) rotateX(-88deg) translateY(-104px) translateZ(42px) translateX(-11px);
   }
   &.cube2 figure.left2{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-90deg) translateY(-55px) translateZ(43px) translateX(-79.5px);
+    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-91deg) translateY(-53px) translateZ(40px) translateX(-70px);
   }
   &.cube2 figure.front2{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-48px) translateZ(44px);
+    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-47px) translateZ(40px);
   }
   &.cube2 figure.top2{
     transition-duration: 0.5s;
     transform-origin: right;
-    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(73px) translateY(-86px) translateZ(9px);
+    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(65.5px) translateY(-79px) translateZ(8.6px);
   }
 }
 .cube3:hover{
   &.cube3 figure.right3{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(40deg) rotateX(-88deg) translateY(-115px) translateZ(45px) translateX(-10.5px);
+    transform: rotateY(40deg) rotateX(-88deg) translateY(-104px) translateZ(42px) translateX(-11px);
   }
   &.cube3 figure.left3{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-90deg) translateY(-55px) translateZ(43px) translateX(-79.5px);
+    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-91deg) translateY(-53px) translateZ(40px) translateX(-70px);
   }
   &.cube3 figure.front3{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-48px) translateZ(44px);
+    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-47px) translateZ(40px);
   }
   &.cube3 figure.top3{
     transition-duration: 0.5s;
     transform-origin: right;
-    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(73px) translateY(-86px) translateZ(9px);
+    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(65.5px) translateY(-79px) translateZ(8.6px);
   }
 }
 .cube4:hover{
   &.cube4 figure.right4{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(40deg) rotateX(-88deg) translateY(-115px) translateZ(45px) translateX(-10.5px);
+    transform: rotateY(40deg) rotateX(-88deg) translateY(-104px) translateZ(42px) translateX(-11px);
   }
   &.cube4 figure.left4{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-90deg) translateY(-55px) translateZ(43px) translateX(-79.5px);
+    transform: rotateY(-141deg) rotateZ(0deg) rotateX(-91deg) translateY(-53px) translateZ(40px) translateX(-70px);
   }
   &.cube4 figure.front4{
     transition-duration: 0.5s;
     transform-origin: left;
-    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-48px) translateZ(44px);
+    transform: rotateY(-50deg) rotateX(-90deg) rotateZ(0deg) translateX(-14.6px) translateY(-47px) translateZ(40px);
   }
   &.cube4 figure.top4{
     transition-duration: 0.5s;
     transform-origin: right;
-    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(73px) translateY(-86px) translateZ(9px);
+    transform: rotateY(129deg) rotateX(0deg) rotateZ(0deg) translateX(65.5px) translateY(-79px) translateZ(8.6px);
   }
 }
