@@ -1,5 +1,6 @@
 html{
   height: auto;
+  width: auto;
   margin:0px;
   background: url('https://s-media-cache-ak0.pinimg.com/originals/3c/ca/69/3cca69831ff902f86d6fbb61758a160f.jpg') no-repeat center center;
   background-size: cover;
@@ -7,6 +8,7 @@ html{
 }
 body{
   position: relative;
+  overflow-x: hidden;
   overflow-y: visible;
   width: 100%;
   min-width: 10%;
@@ -15,7 +17,7 @@ body{
 .menu{
   position: relative;
   transform: translateZ(2px);
-  left: -1em;
+  left: -1.7em;
   top: 13em;
   width: 14.9em;
   max-width: 20em;
@@ -36,7 +38,7 @@ body{
 }
 .projects{
   top: 76em;
-  left: 26em;
+  left: 25em;
 }
 .projects figure{
   -webkit-transition: -webkit-transform 1s;
