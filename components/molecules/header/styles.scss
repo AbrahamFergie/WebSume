@@ -10,7 +10,14 @@
   background-color: #7df442;
 }
 @media only screen and (min-width: 300px) and (max-width: 399) {
-  width: 20.9em;
+  .header{
+    width: 20.9em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header{
+    width: 54.4em;
+  }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1399) {
   .header{

@@ -109,7 +109,7 @@
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
-@media screen and (min-width: 300px) {
+@media (min-width: 350px) {
   .navButton1-home,
   .navButton1-skills,
   .navButton1-related,
@@ -141,6 +141,90 @@
     top: 18em;
     left: -204.6em;
     width: 23em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
+@media (min-width: 410px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    left: -103.6em;
+    width: 27em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -138.7em;
+    width: 27em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    width: 27em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -208.6em;
+    width: 27em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
+@media (max-width: 750px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    left: -103.6em;
+    top: 63em;
+    width: 50em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -114.7em;
+    width: 50em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    left: -173em;
+    width: 50em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -231.1em;
+    width: 50em;
   }
   .navButton4-skills{
     top: 45em;
