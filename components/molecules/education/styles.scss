@@ -17,6 +17,12 @@
   border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
+@media screen and (min-width: 300px) {
+  .education{
+    top: 32em;
+    width: 38.6em
+  }
+}
 @media only screen and (min-width: 1000px) and (max-width: 1399) {
   .education{
     top: -243px;

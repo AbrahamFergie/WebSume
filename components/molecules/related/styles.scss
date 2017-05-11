@@ -25,6 +25,14 @@
   border-radius: 8px 8px 8px 8px;
   background-color: white;
 }
+@media screen and (min-width: 300px) {
+  .related{
+    top: 19em;
+    right: -1.6em;
+    height: 32em;
+    width: 38.9em;
+  }
+}
 @media only screen and (min-width: 1000px) and (max-width: 1399) {
   .related{
     top: -622px;
