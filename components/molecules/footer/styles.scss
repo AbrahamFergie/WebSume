@@ -1,0 +1,40 @@
+.footer-home,
+.footer-skills,
+.footer-related,
+.footer-education{
+  position: relative;
+  top: 146em;
+  left: -1em;
+  height: 2em;
+  width: 102em;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #7df549;
+}
+.footer-skills{
+  top: 105em;
+}
+.footer-related{
+  top: 92em;
+}
+.footer-education{
+  top: 100em;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1399) {
+  .footer-home{
+    top:-250px;
+    left: -4px;
+    height: 2em;
+    width: 99.5%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .footer-home{
+    top: 50em;
+    left: 0em;
+    height: 2em;
+    width: 104.3em;
+  }
+}

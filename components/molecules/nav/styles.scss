@@ -1,0 +1,105 @@
+.nav{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 11em;
+  width: 1000em;
+  font-size: 1.2em;
+}
+.navButton1-home,
+.navButton1-skills,
+.navButton1-related,
+.navButton1-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 43em;
+  left: -103.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton1-skills{
+  top: 55em;
+}
+.navButton2-home,
+.navButton2-skills,
+.navButton2-related,
+.navButton2-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5em;
+  left: -138.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton2-skills{
+  top: 5em;
+}
+.navButton3-home,
+.navButton3-skills,
+.navButton3-related,
+.navButton3-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 13em;
+  left: -173.5em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton3-skills{
+  top: 41em;
+}
+
+.navButton4-home,
+.navButton4-skills,
+.navButton4-related,
+.navButton4-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 21em;
+  left: -208.5em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton4-skills{
+  top: 47em;
+}
+.navButton4-related{
+  top: 37em;
+}

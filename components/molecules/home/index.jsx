@@ -1,21 +1,21 @@
 import React,{ Component } from 'react'
 
+import NavBar from "../nav/index.jsx"
+import Header from "../header/index.jsx"
+import Footer from "../footer/index.jsx"
 import "./styles.scss"
 
 export default class Home extends Component{
 
   render(){
+    let footerName = 'footer-home'
+    let navBttn1 = 'navButton1-home', navBttn2 = 'navButton2-home', navBttn3 = 'navButton3-home', navBttn4 = 'navButton4-home'
+
     return(
       <div>
-        <div className="home"><strong><u>Abraham Ferguson</u></strong><br></br><font size="5">Software Engineer Apprentice</font></div>
-        <div className="skills"><strong><u>Skills</u></strong><br></br>Lorem Khaled Ipsum is a major key to success. Let’s see what Chef Dee got that they don’t want us to eat. Stay focused. You smart, you loyal, you a genius. Fan luv. Stay focused. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast. Special cloth alert. In life there will be road blocks but we will over come it.
-
-        The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. We don’t see them, we will never see them. You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. I’m up to something. Another one. Learning is cool, but knowing is better, and I know the key to success. You see the hedges, how I got it shaped up? It’s important to shape up your hedges, it’s like getting a haircut, stay fresh.</div>
-        <div className="skills2"><strong><u>More Skills</u></strong></div>
-        <div className="skills3"><strong><u>More Skills</u></strong></div>
-        <div className="education"><strong><u>Wer Da Learnin Come Frum</u></strong></div>
-        <div className="related"><strong><u>Previous Work</u></strong></div>
-        <div className="menu">Projects:</div>
+        <Header />
+        <NavBar navButton1={navBttn1} navButton2={navBttn2} navButton3={navBttn3} navButton4={navBttn4}/>
+        <div className="menu">Projects</div>
         <div className="projects"><br></br><br></br>
           <div className="carousel">
             <div className="cube">
@@ -61,7 +61,7 @@ export default class Home extends Component{
             </div>
           </div>
         </div>
-        <div className="footer">React-Powered</div>
+        <Footer name={footerName}/>
       </div>
     )
   }
