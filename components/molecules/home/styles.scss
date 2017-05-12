@@ -2,9 +2,6 @@ html{
   height: auto;
   width: auto;
   margin:0px;
-  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/3c/ca/69/3cca69831ff902f86d6fbb61758a160f.jpg');
-  background-size: 100% 100%;
-  background-attachment: fixed;
 }
 body{
   position: relative;
@@ -28,7 +25,42 @@ body{
   font-family: fantasy;
   text-align: center;
 }
-
+.link{
+  position: relative;
+  left: 38.5em;
+  top: 3em;
+  color: white;
+}
+.linkedin{
+  position: relative;
+  left: 35em;
+  top: 1.7em;
+  width: 37em;
+}
+.profile{
+  position: relative;
+  top: 1em;
+  left: 15em;
+  font-size: 2em;
+  background-color: white;
+  height: 1.2em;
+  width: 26em;
+}
+.blackJack{
+  background-color: white;
+  position: relative;
+  top: 7em;
+  width: 35em;
+  height: 20em;
+}
+.bookstore{
+  background-color: white;
+  position: relative;
+  top: -13em;
+  left: 69em;
+  width: 35em;
+  height: 20em;
+}
 .projects{
   position: relative;
   border-radius: 10px 90px 10px 90px;
@@ -93,13 +125,14 @@ a {
 }
 @media only screen and (min-width: 1400px) {
   .menu{
-    left: 9.8em;
-    top: 8em;
-    width: 14.9em;
+    left: 12.8em;
+    top: 6em;
+    width: 4.9em;
+    font-size: 14em;
   }
   .projects{
-    top: 4em;
-    left: 28em;
+    top: -31em;
+    left: 25em;
   }
 }
 .carousel{

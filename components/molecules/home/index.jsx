@@ -1,20 +1,61 @@
 import React,{ Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import NavBar from "../nav/index.jsx"
 import Header from "../header/index.jsx"
 import Footer from "../footer/index.jsx"
+
 import "./styles.scss"
 
 export default class Home extends Component{
-
+  // <div className="col-md-4">
+  // </div>
   render(){
     let footerName = 'footer-home'
     let navBttn1 = 'navButton1-home', navBttn2 = 'navButton2-home', navBttn3 = 'navButton3-home', navBttn4 = 'navButton4-home'
 
     return(
-      <div>
+      <div className="bg-primary text-md-center">
         <Header />
-        <NavBar navButton1={navBttn1} navButton2={navBttn2} navButton3={navBttn3} navButton4={navBttn4}/>
+        <div className="row bg-primary text-white text-center lead">
+          <Link className="link" to="/skills">Bio-Page</Link>
+          <div className="col-md-4 text-white">
+            <a target="_blank" href="https://github.com/AbrahamFergie">
+              <br></br>My Github Profile:  github.com/AbrahamFergie<br></br><br></br></a>
+          </div>
+          <div className="linkedin">
+            <a target="_blank" href="https://www.linkedin.com/in/abraham-ferguson-971077117/">LinkedIn Profile</a>
+          </div>
+        </div>
+        <div className="row bg-primary text-white">
+          <div className="col-md-4 bg-primary text-white">
+            <img className="img-responsive img-rounded" src="https://cloud.githubusercontent.com/assets/15825329/25975569/eb3eab02-3663-11e7-9578-18cb77d7ecff.png"></img>
+            &nbsp;This is My BlackJack game that lets you place bets against the house
+            <a target="_blank"
+              href="https://github.com/AbrahamFergie/myBlackJack">
+
+              <br></br>&nbsp;Click Me To See The Repo</a>
+          </div>
+          <div className="col-md-4 bg-primary text-white">
+            <img className="img-responsive img-rounded" src="https://cloud.githubusercontent.com/assets/15825329/25976719/97058e72-366b-11e7-8599-2b8c2e16311b.png"></img>
+            <img className="img-responsive img-rounded" src="https://cloud.githubusercontent.com/assets/15825329/25976694/6a2b2754-366b-11e7-8c7a-37276cf6eb85.png"></img>
+            This is My Bookstore app that lets you search add and explore the books found in the attached database
+            <a target="_blank"
+              href="https://github.com/AbrahamFergie/myBooky">
+
+              <br></br>Click Me To See The Repo</a>
+          </div>
+          <div className="col-md-4 bg-primary text-white">
+            <img className="img-rounded img-responsive" src="https://ancientbeast.com/images/AncientBeast.png"></img>
+            This is a pull request I did for the OSS game AncientBeast<br></br>
+            <a target="_blank" href="https://github.com/AbrahamFergie/AncientBeast/pull/1"><br></br>Click Me To See The Repo</a><br></br><br></br><br></br><br></br>
+
+            <img className="img-rounded img-responsive" src="https://img.pr0gramm.com/2015/10/26/25d3757fb55f0b14.jpg"></img>
+            This is a pull request I did for the OSS app Prrr<br></br>
+          <a target="_blank" href="https://github.com/GuildCrafts/prrr/pull/136"><br></br>Click Me To See The Repo</a>
+
+          </div>
+        </div>
         <div className="menu">Projects</div>
         <div className="projects"><br></br><br></br>
           <div className="carousel">

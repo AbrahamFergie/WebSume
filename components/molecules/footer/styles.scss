@@ -3,7 +3,7 @@
 .footer-related,
 .footer-education{
   position: relative;
-  top: 146em;
+  bottom: 0em;
   left: -1em;
   height: 2em;
   width: 102em;
@@ -15,6 +15,9 @@
 }
 .footer-skills{
   top: 105em;
+  left: 1.1em;
+  width: 120em;
+  color: black;
 }
 .footer-related{
   top: 92em;
@@ -38,9 +41,10 @@
 }
 @media only screen and (min-width: 1400px) {
   .footer-home{
-    top: 50em;
-    left: 0em;
+    bottom: 50em;
+    left: 0.3em;
     height: 2em;
-    width: 104.3em;
+    width: 119.6em;
+    color: black;
   }
 }

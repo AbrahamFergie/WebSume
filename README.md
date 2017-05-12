@@ -11,9 +11,9 @@
   To view some of the work I've done simply click on a cube and it will take you to the repository where that app's code lives.
 
 <<<<<<< Updated upstream
- 
 
-     
+
+
 =======
-  Navigating to this repo: https://github.com/AbrahamFergie/myEnvironment will connect you with the rest of my relevant work that I did this past week.
+  
 >>>>>>> Stashed changes
