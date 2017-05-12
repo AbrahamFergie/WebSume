@@ -1,0 +1,278 @@
+.nav{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 11em;
+  width: 1000em;
+  font-size: 1.2em;
+}
+.navButton1-home,
+.navButton1-skills,
+.navButton1-related,
+.navButton1-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 43em;
+  left: -111.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton1-skills{
+  top: 55em;
+}
+.navButton2-home,
+.navButton2-skills,
+.navButton2-related,
+.navButton2-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5em;
+  left: -138.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton2-skills{
+  top: 5em;
+}
+.navButton3-home,
+.navButton3-skills,
+.navButton3-related,
+.navButton3-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 13em;
+  left: -173.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton3-skills{
+  top: 41em;
+}
+
+.navButton4-home,
+.navButton4-skills,
+.navButton4-related,
+.navButton4-education{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 21em;
+  left: -208.6em;
+  transform: rotateY(0deg);
+  animation: preserve-3d;
+  font-size: 3em;
+  height: 4em;
+  width: 27em;
+  background-color: white;
+  border-radius: 20em 20em 20em 20em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.navButton4-skills{
+  top: 47em;
+}
+.navButton4-related{
+  top: 37em;
+}
+.clicked{
+  transition: 0.5s ease;
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+@media (max-width: 350px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    width: 23em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -142.7em;
+    width: 23em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    width: 23em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -204.6em;
+    width: 23em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
+@media (max-width: 410px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    left: -103.6em;
+    width: 27em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -138.7em;
+    width: 27em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    width: 27em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -208.6em;
+    width: 27em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
+@media (max-width: 750px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    left: -103.6em;
+    top: 63em;
+    width: 50em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -114.7em;
+    width: 50em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    left: -173em;
+    width: 50em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -231.1em;
+    width: 50em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
+@media (min-width: 1500px) {
+  .navButton1-home,
+  .navButton1-skills,
+  .navButton1-related,
+  .navButton1-education{
+    left: -103.6em;
+    top: 63em;
+    width: 50em;
+  }
+  .navButton2-related,
+  .navButton2-education,
+  .navButton2-skills,
+  .navButton2-home{
+    top: 2em;
+    left: -114.7em;
+    width: 50em;
+  }
+  .navButton3-home,
+  .navButton3-skills,
+  .navButton3-related,
+  .navButton3-education{
+    top: 10em;
+    left: -173em;
+    width: 50em;
+  }
+  .navButton3-skills{
+    top: 39em;
+  }
+  .navButton4-home,
+  .navButton4-skills,
+  .navButton4-related,
+  .navButton4-education{
+    top: 18em;
+    left: -231.1em;
+    width: 50em;
+  }
+  .navButton4-skills{
+    top: 45em;
+  }
+  .navButton4-related{
+    top: 34em;
+  }
+}
