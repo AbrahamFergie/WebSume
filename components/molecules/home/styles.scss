@@ -2,8 +2,12 @@ html{
   height: auto;
   width: auto;
   margin:0px;
+  background-color: black;
 }
 body{
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/bf/d6/3f/bfd63f1d226d178725f6726e1cf57fdf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   overflow-x: hidden;
   overflow-y: visible;
@@ -24,6 +28,9 @@ body{
   text-shadow: 1px -12px 10px #7df442;
   font-family: fantasy;
   text-align: center;
+}
+.paint{
+  color: white;
 }
 .link{
   position: absolute;
@@ -200,7 +207,7 @@ a {
 .cube figure.front{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(33px);
   background-color: white;
 }
 .cube figure.top{
@@ -208,30 +215,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(33px) translateX(56px) translateY(-24px);
 }
 .cube figure.bottom{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(33px) translateY(0px);
   background-color: white;
 }
 .cube figure.left{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(33px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube figure.right{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(33px);
   background-color: white;
 }
 .cube figure.back{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-40px);
+  transform:rotateY(-50deg) translateZ(-33px);
   background-color: white;
 }
 .cube2{
@@ -252,7 +259,7 @@ a {
 .cube2 figure.front2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(33px);
   background-color: white;
 }
 .cube2 figure.top2{
@@ -260,30 +267,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(33px) translateX(56px) translateY(-24px);
 }
 .cube2 figure.bottom2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(33px) translateY(0px);
   background-color: white;
 }
 .cube2 figure.left2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(33px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube2 figure.right2{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(33px);
   background-color: white;
 }
 .cube2 figure.back2{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-40px);
+  transform:rotateY(-50deg) translateZ(-33px);
   background-color: white;
 }
 .cube3{
@@ -304,7 +311,7 @@ a {
 .cube3 figure.front3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(33px);
   background-color: white;
 }
 .cube3 figure.top3{
@@ -312,30 +319,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(33px) translateX(56px) translateY(-24px);
 }
 .cube3 figure.bottom3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(33px) translateY(0px);
   background-color: white;
 }
 .cube3 figure.left3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(33px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube3 figure.right3{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(33px);
   background-color: white;
 }
 .cube3 figure.back3{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-40px);
+  transform:rotateY(-50deg) translateZ(-33px);
   background-color: white;
 }
 .cube4 {
@@ -355,7 +362,7 @@ a {
 .cube4 figure.front4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
+  transform:rotateY(-50deg) rotateX(0deg) translateZ(35px);
   background-color: white;
 }
 .cube4 figure.top4{
@@ -363,30 +370,30 @@ a {
   width: 5em;
   transform-origin: right;
   background-color: white;
-  transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
+  transform: rotateY(130deg) rotateX(90deg) translateZ(33px) translateX(56px) translateY(-24px);
 }
 .cube4 figure.bottom4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(40px) translateY(0px);
+  transform:rotateY(-49.7deg) rotateX(-90deg) translateX(1px) translateZ(35px) translateY(0px);
   background-color: white;
 }
 .cube4 figure.left4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(40px) translateX(1px) translateY(0px);
+  transform:rotateY(-141deg) rotateZ(0deg) rotateX(0deg) translateZ(35px) translateX(1px) translateY(0px);
   background-color: white;
 }
 .cube4 figure.right4{
   height: 5em;
   width: 5em;
-  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
+  transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(35px);
   background-color: white;
 }
 .cube4 figure.back4{
   height: 5em;
   width: 5em;
-  transform:rotateY(-50deg) translateZ(-40px);
+  transform:rotateY(-50deg) translateZ(-35px);
   background-color: white;
 }
 .cube:hover{
