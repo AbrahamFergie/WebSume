@@ -16,7 +16,7 @@ Make your site simple! Make the content that employers will want to see front an
 
 ## Specifications
 
-- [X] __10:__ Site is hosted (I recommend Heroku or gh-pages)
+- [X] __10:__ Site is hosted (I recommend Heroku or gh-pages)(located at websume.heroku.com)
 - [X] __5:__ Site prominently features link to your GitHub
 - [X] __10:__ Site uses a CSS framework
 - [X] __10:__ Site includes blurb / screenshots / links (both to GitHub and live site) to one of your most impressive projects
