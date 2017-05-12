@@ -63,6 +63,36 @@ body{
 }
 .projects{
   position: relative;
+=======
+.home{
+  position: relative;
+  padding-left: 2px;
+  left: -4px;
+  width: 99.6%;
+  opacity: 0.7;
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #7df442;
+}
+.footer{
+  position: relative;
+  top:-750px;
+  left: -4px;
+  height: 2em;
+  width: 99.5%;
+  opacity: 0.7;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #7df549;
+}
+.projects{
+  position: relative;
+  top: -1450px;
+  left: 30em;
   border-radius: 10px 90px 10px 90px;
   line-height: .2em;
   width: 40em;
@@ -111,29 +141,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   width: 40em;
-}
-@media only screen and (min-width: 1000px) and (max-width: 1399) {
-  .menu{
-    left: 175px;
-    top: -9em;
-    width: 14.9em;
-  }
-  .projects{
-    top: -750px;
-    left: 12em;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .menu{
-    left: 12.8em;
-    top: 6em;
-    width: 4.9em;
-    font-size: 14em;
-  }
-  .projects{
-    top: -31em;
-    left: 25em;
-  }
+ }
 }
 .carousel{
   /*transform: rotateY(170deg);*/
@@ -178,7 +186,6 @@ a {
 * {
 	box-sizing: border-box
 }
-
 .cube{
   transform: rotateY(4deg) rotateX(-16deg) rotateZ(1deg) translateZ(44px) translateX(-200px) translateY(300px);
   margin-left: 4em;
@@ -304,7 +311,9 @@ a {
 .cube3 figure.front3{
   height: 5em;
   width: 5em;
+
   transform:rotateY(-50deg) rotateX(0deg) translateZ(40px);
+
   background-color: white;
 }
 .cube3 figure.top3{
@@ -313,6 +322,7 @@ a {
   transform-origin: right;
   background-color: white;
   transform: rotateY(130deg) rotateX(90deg) translateZ(39px) translateX(65px) translateY(-31px);
+
 }
 .cube3 figure.bottom3{
   height: 5em;
@@ -329,6 +339,7 @@ a {
 .cube3 figure.right3{
   height: 5em;
   width: 5em;
+
   transform:rotateY(40deg) rotateX(0deg) rotateZ(0deg) translateY(1px) translateZ(40px);
   background-color: white;
 }
