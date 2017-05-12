@@ -23,9 +23,7 @@ export default class NavBar extends Component {
   // </div>
   render(){
     return(
-      <div className="text-center">
-        <Link to="/skills">Bio-Page</Link>
-      </div>
+      <Link to="/skills">Bio-Page</Link>
     )
   }
 }

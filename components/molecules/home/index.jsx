@@ -18,7 +18,11 @@ export default class Home extends Component{
       <div className="bg-primary text-md-center">
         <Header />
         <div className="row bg-primary text-white text-center lead">
-          <Link className="link" to="/skills">Bio-Page</Link>
+          <div className="link">
+            <div>
+              <Link to="/skills">Bio-Page</Link>
+            </div>
+          </div>
           <div className="col-md-4 text-white">
             <a target="_blank" href="https://github.com/AbrahamFergie">
               <br></br>My Github Profile:  github.com/AbrahamFergie<br></br><br></br></a>
